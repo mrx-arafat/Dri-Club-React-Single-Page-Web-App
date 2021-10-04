@@ -8,12 +8,6 @@ import Services from "./components/Services/Services";
 import { useEffect, useState } from "react";
 
 function App() {
-  const [services, setServices] = useState([]);
-  useEffect(() => {
-    fetch("./services.json")
-      .then((res) => res.json())
-      .then((data) => console.log(data));
-  }, []);
   return (
     <div className="App">
       {/* react router */}
