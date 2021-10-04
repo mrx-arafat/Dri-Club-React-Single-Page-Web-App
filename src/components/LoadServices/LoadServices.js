@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
-import Services from "../Services/Services";
+import React from "react";
 
-const LoadServices = () => {
-  const [services, setServices] = useState([]);
-  useEffect(() => {
-    fetch("./services.json")
-      .then((res) => res.json())
-      .then((data) => setServices(data));
-  }, []);
+const LoadServices = (props) => {
+  const { title } = props.sv;
   return (
     <div>
-      {services.map((service) => {
-        <Services service={service}></Services>;
-      })}
+      <h1>{title}</h1>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
-import { useEffect, useState } from "react";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
           </Route>
           <Route path="/services">
             <Services></Services>
+          </Route>
+          <Route>
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>
