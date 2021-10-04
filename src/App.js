@@ -6,13 +6,14 @@ import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
 import { useEffect, useState } from "react";
+import ServiceHome from "./components/ServiceHome/ServiceHome";
 
 function App() {
-  const [services, setservices] = useState([]);
+  const [servicesHome, setServicesHome] = useState([]);
   useEffect(() => {
-    fetch("./services.json")
+    fetch("./servicesHome.json")
       .then((res) => res.json())
-      .then((data) => console.log(data));
+      .then((data) => setServicesHome(data));
   }, []);
 
   return (
@@ -32,6 +33,11 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+
+      {/* showing services */}
+      {servicesHome.map((sh) => (
+        <ServiceHome serviceHome={sh}></ServiceHome>
+      ))}
     </div>
   );
 }
