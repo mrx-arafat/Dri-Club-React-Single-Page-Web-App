@@ -6,7 +6,7 @@ import "./HomeSection.css";
 //added in Home.js
 const HomeSection = () => {
   return (
-    <div className="container">
+    <div className="containerHome">
       <img className="img" src={img} alt="drive school" srcset="" />
       <div className="text">
         <h1>Are You Ready?</h1>

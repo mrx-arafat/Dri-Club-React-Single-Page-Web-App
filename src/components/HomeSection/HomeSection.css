@@ -1,4 +1,4 @@
-.container {
+.containerHome {
   display: flex;
   padding: 30px;
 }
@@ -10,6 +10,7 @@
 .text {
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
 }

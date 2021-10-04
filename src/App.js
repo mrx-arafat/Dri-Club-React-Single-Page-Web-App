@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
 import NotFound from "./components/NotFound/NotFound";
+import FAQ from "./components/FAQ/FAQ";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -27,11 +29,15 @@ function App() {
           <Route path="/services">
             <Services></Services>
           </Route>
+          <Route path="/faq">
+            <FAQ></FAQ>
+          </Route>
           <Route>
             <NotFound></NotFound>
           </Route>
         </Switch>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
 }
