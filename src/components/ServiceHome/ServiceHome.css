@@ -1,0 +1,8 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.card {
+  padding: 10px;
+}
