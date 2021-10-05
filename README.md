@@ -4,7 +4,7 @@
 
 Netlify Site [Link](https://driclub-mrx-arafat.netlify.app/)
 
-- Learning Platform
+- Driving Learning Platform
 - Used React Router For SPA
 - Created Custom JSON Data
 - Deployed in Netlify

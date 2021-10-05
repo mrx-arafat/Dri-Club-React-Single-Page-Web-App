@@ -8,7 +8,7 @@ import {
 import React from "react";
 
 import "./LoadServices.css";
-
+// all data are showing for services page
 const LoadServices = (props) => {
   const { title, img, description, fee } = props.sv;
   return (

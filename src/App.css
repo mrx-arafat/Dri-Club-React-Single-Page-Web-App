@@ -40,3 +40,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+h1 {
+  color: #ffa90a;
+  text-decoration: underline;
+}

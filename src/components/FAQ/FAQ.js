@@ -65,13 +65,11 @@ const FAQ = () => {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography>Accordion 2</Typography>
+            <Typography>How can I Join Dri Club ?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              Simple , Just register online then come to our office
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -81,7 +79,7 @@ const FAQ = () => {
             aria-controls="panel3a-content"
             id="panel3a-header"
           >
-            <Typography>Disabled Accordion</Typography>
+            <Typography>Friday Closed</Typography>
           </AccordionSummary>
         </Accordion>
       </div>

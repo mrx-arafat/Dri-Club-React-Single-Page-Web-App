@@ -26,6 +26,7 @@ const HomeSection = () => {
             backgroundColor: "#FDAB10",
             padding: "18px 36px",
             fontSize: "18px",
+            fontWeight: "bold",
           }}
           variant="contained"
           component={Link}
