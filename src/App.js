@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
-import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
@@ -12,8 +12,9 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      {/* react router */}
+      {/* react router set */}
       <BrowserRouter>
+        {/* header  added inside Router due to  NavLink*/}
         <Header></Header>
 
         <Switch>
@@ -37,6 +38,8 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+
+      {/* footer added here */}
       <Footer></Footer>
     </div>
   );

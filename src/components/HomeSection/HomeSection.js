@@ -4,6 +4,7 @@ import React from "react";
 
 import img from "../../img/driveSchool.jpg";
 import "./HomeSection.css";
+import { Link } from "react-router-dom";
 //added in Home.js
 const HomeSection = () => {
   return (
@@ -27,9 +28,10 @@ const HomeSection = () => {
             fontSize: "18px",
           }}
           variant="contained"
+          component={Link}
+          to="/services"
         >
-          <DriveEtaIcon />
-          Enroll Now
+          <DriveEtaIcon /> &nbsp; Visit Our All Services
         </Button>
       </div>
     </div>
