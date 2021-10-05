@@ -65,7 +65,7 @@ const FAQ = () => {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography>How can I Join Dri Club ?</Typography>
+            <Typography>How can I join DriClub ?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
