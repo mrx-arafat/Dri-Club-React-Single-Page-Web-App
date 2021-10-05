@@ -1,4 +1,5 @@
 import { Button } from "@mui/material";
+import DriveEtaIcon from "@mui/icons-material/DriveEta";
 import React from "react";
 
 import img from "../../img/driveSchool.jpg";
@@ -18,7 +19,18 @@ const HomeSection = () => {
           and encouraging environment as you start your driving lessons and
           learn to drive.
         </p>
-        <Button variant="contained">Enroll Now</Button>
+        <Button
+          style={{
+            borderRadius: 35,
+            backgroundColor: "#FDAB10",
+            padding: "18px 36px",
+            fontSize: "18px",
+          }}
+          variant="contained"
+        >
+          <DriveEtaIcon />
+          Enroll Now
+        </Button>
       </div>
     </div>
   );

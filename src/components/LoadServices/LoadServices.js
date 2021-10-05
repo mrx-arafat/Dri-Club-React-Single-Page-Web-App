@@ -32,7 +32,17 @@ const LoadServices = (props) => {
         <Typography gutterBottom variant="h5" component="div">
           {fee}
         </Typography>
-        <Button variant="contained">Enroll Now</Button>
+        <Button
+          style={{
+            borderRadius: 35,
+            backgroundColor: "#FDAB10",
+
+            fontSize: "18px",
+          }}
+          variant="contained"
+        >
+          Enroll Now
+        </Button>
       </Card>
     </div>
   );
